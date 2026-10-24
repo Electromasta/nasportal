@@ -188,18 +188,17 @@
     <div class="right-side">
       <div class="pill-group">
         @for (item of [
-          { title: 'Drive', link: 'https://drive.cranberry-box.com', class: 'pill pill-blue' },
-          { title: 'Photos', link: 'https://photos.cranberry-box.com', class: 'pill pill-blue' },
-          { title: 'Notes', link: 'https://notes.cranberry-box.com', class: 'pill pill-blue' },
+          { title: 'Drive', link: 'https://dsm.cranberry-box.com/drive/', class: 'pill pill-blue' },
+          { title: 'Photos', link: 'https://dsm.cranberry-box.com/photo/', class: 'pill pill-blue' },
+          { title: 'Plex Media', link: 'https://plex.cranberry-box.com', class: 'pill pill-blue' },
+          { title: 'Mealie Recipes', link: 'https://mealie.cranberry-box.com', class: 'pill pill-blue' },
+          { title: 'RomM Arcade', link: 'https://arcade.cranberry-box.com', class: 'pill pill-blue' },
 
-          { title: 'Jellyfin Media', link: 'https://jellyfin.cranberry-box.com', class: 'pill pill-violet' },
-          { title: 'RomM Arcade', link: 'https://arcade.cranberry-box.com', class: 'pill pill-violet' },
-          { title: 'Mealie Recipes', link: 'https://mealie.cranberry-box.com', class: 'pill pill-violet' },
+          { title: 'Linkwarden Links', link: 'https://links.cranberry-box.com', class: 'pill pill-violet' },
+          { title: 'Forgejo Git', link: 'https://git.cranberry-box.com', class: 'pill pill-violet' },
 
-          { title: 'Home Automation', link: 'https://home.cranberry-box.com', class: 'pill pill-red' },
-          { title: 'Git', link: 'https://git.cranberry-box.com', class: 'pill pill-red' },
-          { title: 'Test Page', link: 'https://test.cranberry-box.com', class: 'pill pill-red' },
-          { title: 'Admin Console', link: 'https://admin.cranberry-box.com', class: 'pill pill-red' },
+          { title: 'Admin Console', link: 'https://dsm.cranberry-box.com', class: 'pill pill-red' },
+          { title: 'Account', link: 'https://auth.cranberry-box.com', class: 'pill pill-red' },
         ]; track item.title) {
           <a
             [class]="item.class"
